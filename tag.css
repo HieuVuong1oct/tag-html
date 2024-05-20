@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Metropolis;
+    src: url(metropolis.thin.otf);
+}
+  
+h1{
+    font-family: Metropolis;
+}
