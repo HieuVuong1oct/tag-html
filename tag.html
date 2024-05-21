@@ -14,17 +14,19 @@
 
 <body>
     <header>
+        <div  title="helo" onclick="alert('Div clicked!')" onmouseover="this.style.backgroundColor='red'" onmouseout="this.style.backgroundColor='white'">Bấm</div>
         <h1>Tiêu đề 1</h1>
         <i class="fas fa-desktop"></i>
         <hr>
     </header>
     <section>
         <div>
-            <img src="anh.jpg" alt="">
-            <a href="#"></a>
+            <img src="anh.jpg" alt="ảnh lỗi" boder="30px">
+            <a href="https://www.google.com.vn/?hl=vi" target="_blank">Chuyển trang</a>
+            
             <hr>
             <p>Đây là một đoạn văn dài</p>
-            <ul>
+            <ul type="circle">
                 <li>Mục 1</li>
                 <li>Mục 2</li>
             </ul>
@@ -61,7 +63,7 @@
         </tr>
     </table>
 <hr>
-    <table border="1">
+    <table border="1" cellspacing="20px" bgcolor="red" width="500px" height="500px" text-align="right">
         <tr>
             <th rowspan="3">LẬP TRÌNH WEB</th>
             <td>HTML</td>
@@ -78,16 +80,19 @@
     <div>
     <form>
         First name:<br>
-        <input type="text" name="firstname"><br>
+        <input type="text" name="firstname" value="họ"><br>
         Last name:<br>
-        <input type="text" name="lastname">
+        <input type="text" name="lastname" value="tên">
+        <button type="reset">Reset</button>
     </form>
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" size="30" />
+    <label for="email" >Email</label>
+    <input type="text" id="email" name="email"  value="mail" size="40px" maxlength="10"/>
+    <input type="button" value="Click Me">
 </div>
 <hr>
     <p>Tài liệu hướng dẫn học <span style="font-size:30px;font-family:monospace;">lập trình web</span> từ cơ bản đến
         nâng cao.</p>
+        <input type="text" name="firstname" value="John" size="20">
         <hr>
         <footer>
             <div>Liên hệ</div>
