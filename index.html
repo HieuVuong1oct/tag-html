@@ -12,21 +12,32 @@
 
 <body>
     <header>
-        <div>
-            <div>
-                <a href="https://startbootstrap.com/theme/creative" ><i class="fas fa-arrow-left"></i>Overview Page</a>
-            </div>
-            <div>
-                <i class="fas fa-desktop"></i>
-                <i class="fas fa-tablet-alt"></i>
-                <i class="fas fa-mobile-alt"></i>
-            </div>
-            <div>
-                <i class="fas fa-github"></i>
-                <a href ="" download="">
-                    <i class="fas fa-download"></i>
-                    <button type="button" name="freeDownload" value="Free Download"><i></i>Free Download</button>
+        <div id="header-div">
+            <div class="overView">
+                <a class ="overView-a" href="https://startbootstrap.com/theme/creative" >
+                    <i class="fas fa-arrow-left"></i>
+                    <span class="overView-span">Overview Page</span>
                 </a>
+            </div>
+            <div class="preview">
+                <div title="Desktop preview"><i class="fas fa-desktop"></i></div>
+                <div title="Tablet preview"><i class="fas fa-tablet-alt"></i></div>
+                <div title="Mobile preview"><i class="fas fa-mobile-alt"></i></div>
+                
+            </div>
+            <div class="freeDownload">
+                <i class="fab fa-github"></i>
+                <button type="button" class="button-free">
+                    
+                   <a href="https://startbootstrap.com/previews/creative" download="Bootstrap">
+                    <i class="fas fa-download"></i>
+                    Free Download
+                </a> 
+                   
+                </button>
+                <button type="button" class="close">
+                <i class="fas fa-times"></i>
+                </button>
             </div>
         </div>
     </header>

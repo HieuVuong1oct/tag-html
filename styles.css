@@ -2,7 +2,162 @@
     font-family: Metropolis;
     src: url(metropolis.thin.otf);
 }
-  
-i{
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+header {
+
+    height: 63px;
+    background-color: white;
+    border-bottom-color: #dc392d !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2.4px;
+    box-sizing: border-box;
+    display: block;
     font-family: Metropolis;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#header-div{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 44.6px;
+    align-items: center ;
+}
+
+.overView{
+    width: 678px;
+    padding: 0 12px;
+    text-align: start;
+}
+
+.overView-a{
+    padding: 8px 12px;
+    border: 0.8px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #69707a; ;
+    cursor: pointer;
+}
+
+.overView-a:hover{
+    background-color: rgba(33, 40, 50, .1);
+}
+.preview{
+    width: 180px;
+    text-align: start;
+    padding: 0 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#69707a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42.4px;
+}
+
+.fa-desktop{
+    flex:1;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42.4px;
+    width: 42.4px;
+}
+.fa-desktop:hover{
+    background-color: rgba(33, 40, 50, .2);
+    border-radius: 100%;
+}
+.fa-tablet-alt{
+    flex:1;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42.4px;
+    width: 42.4px;
+}
+.fa-tablet-alt:hover{
+    background-color: rgba(33, 40, 50, .2);
+    border-radius: 100%;
+}
+.fa-mobile-alt{
+    flex:1;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42.4px;
+    width: 42.4px;
+}
+.fa-mobile-alt:hover{
+    background-color: rgba(33, 40, 50, .2);
+    border-radius: 100%;
+}
+.freeDownload{
+    width: 678px;
+    text-align: right;
+    font-size:16px;
+    padding: 0 12px;
+    line-height: 24px;
+}
+
+.fa-github{
+    border-top: 0.8px;
+    border-bottom: 0.8px;
+    border-left: 0.8px;
+    border-right: 8px;
+    padding:8px 12px;
+    font-size: 12px;
+}
+
+.button-free{
+    border-top: 0.8px;
+    border-bottom: 0.8px;
+    border-left: 0.8px;
+    border-right: 8px;
+    padding:8px 12px;
+    color:red;
+    background-color: #f0e3e7;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.button-free a{
+    color: red;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.fa-times{
+    border:0.8px;
+    width: 30px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+.close{
+    width: 28.4px;
+    height: 28.4px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
 }

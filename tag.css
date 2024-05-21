@@ -6,3 +6,11 @@
 h1{
     font-family: Metropolis;
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử xuống dòng nếu không đủ chỗ */
+    justify-content: space-between; /* Phân bố khoảng cách giữa các phần tử */
+    gap: 10px; /* Khoảng cách giữa các phần tử (tuỳ chọn) */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
