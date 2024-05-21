@@ -78,6 +78,7 @@ header {
     align-items: center;
     height: 42.4px;
     width: 42.4px;
+    cursor: pointer;
 }
 .fa-desktop:hover{
     background-color: rgba(33, 40, 50, .2);
@@ -91,6 +92,7 @@ header {
     align-items: center;
     height: 42.4px;
     width: 42.4px;
+    cursor: pointer;
 }
 .fa-tablet-alt:hover{
     background-color: rgba(33, 40, 50, .2);
@@ -104,6 +106,7 @@ header {
     align-items: center;
     height: 42.4px;
     width: 42.4px;
+    cursor: pointer;
 }
 .fa-mobile-alt:hover{
     background-color: rgba(33, 40, 50, .2);
@@ -124,6 +127,11 @@ header {
     border-right: 8px;
     padding:8px 12px;
     font-size: 12px;
+    cursor: pointer;
+}
+
+.fa-github:hover{
+    background-color: rgba(33, 40, 50, .1);
 }
 
 .button-free{
@@ -156,8 +164,13 @@ header {
     height: 28.4px;
     border-radius: 100%;
     cursor: pointer;
+    background-color: white;
 }
 
+.close:hover{
+    background-color: rgba(33, 40, 50, .1);
+    border-radius: 100%;
+}
 a{
     text-decoration: none;
 }
