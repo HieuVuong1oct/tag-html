@@ -2,6 +2,11 @@
     font-family: Metropolis;
     src: url(metropolis.thin.otf);
 }
+
+@font-face {
+    font-family: MerriweatherSans;
+    src: url(../font/Merriweather-Bold.ttf);
+}
   
 h1{
     font-family: Metropolis;
