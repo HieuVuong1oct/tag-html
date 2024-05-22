@@ -266,7 +266,7 @@ li {
 
 }
 
-.content1{
+.content1 {
     height: 568px;
     width: 1272px;
     margin: 0 -24px;
@@ -281,30 +281,30 @@ li {
     line-height: 24px;
 }
 
-.h1-content{
+.h1-content {
     width: 800px;
     height: 185px;
     padding: 0 24px;
     align-self: flex-end;
     box-sizing: border-box;
     display: block;
-    flex-basis :auto;
-flex-grow :0;
-flex-shrink :0;
-font-family: MerriweatherSans;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: MerriweatherSans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.p-content{
+.p-content {
     height: 163px;
     width: 800px;
     padding: 0 24px;
     box-sizing: border-box;
-    flex-grow :0;
-flex-shrink :0;
-font-family: MerriweatherSans;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: MerriweatherSans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -313,7 +313,7 @@ font-family: MerriweatherSans;
     text-align: center;
 }
 
-h1{
+h1 {
     width: 800px;
     height: 134px;
     margin-bottom: 8px;
@@ -327,7 +327,7 @@ h1{
     text-align: center;
 }
 
-.h1-content > hr{
+.h1-content>hr {
     width: 52px;
     height: 2.4px;
     border-top: 0.8px;
@@ -342,7 +342,7 @@ h1{
 
 }
 
-.p-content > p{
+.p-content>p {
     width: 800px;
     height: 55px;
     margin-bottom: 48px;
@@ -356,8 +356,8 @@ h1{
     text-align: center;
 }
 
-.btn-content1{
-    
+.btn-content1 {
+
     padding: 20px 36px;
     box-sizing: border-box;
     display: inline-block;
@@ -369,5 +369,240 @@ h1{
     color: white;
     background-color: rgb(244, 98, 58);
     text-align: center;
+    cursor: pointer;
 }
 
+#about {
+    height: 222px;
+    width: 1519px;
+
+    padding: 128px 0;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+    background-color: rgb(244, 98, 58);
+}
+
+.about-content {
+    width: 1224px;
+    height: 222px;
+    box-sizing: border-box;
+    display: block;
+    padding: 0 48px;
+    margin: 0 96px;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+
+}
+
+.h2-about {
+    width: 1272px;
+    height: 222px;
+    margin: 0 -24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+
+}
+
+.about-full {
+    width: 800px;
+    height: 222px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    flex-grow: 0;
+    flex-basis: auto;
+    flex-shrink: 0;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    text-align: center;
+}
+
+.about-full > h2{
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 8px;
+    font-family: MerriweatherSans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    color: rgb(255, 255, 255);
+}
+
+.about-full > hr{
+    width: 52px;
+    height: 2.4px;
+    border-top: 0.8px;
+    margin: 24px 374px;
+    
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+    background-color: rgb(255, 255, 255);
+    border-top-color: rgb(33, 37, 41);
+border-top-style: solid;
+border-top-width: 0.8px;
+}
+
+.about-full > p{
+    width: 800px;
+    height: 48px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    display: block;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-about{
+    width: 94px;
+    height: 20px;
+    padding: 20px 36px;
+    
+    display: inline-block;
+    font-family: MerriweatherSans;
+    font-size: 13.6px;
+    font-weight: 700;
+    line-height: 20.4px;
+    text-align: center;
+    border-radius: 160px;
+    color: #000;
+    background-color: rgb(248, 249, 250);
+    cursor: pointer;
+}
+
+#service{
+    width: 1519px;
+    height: 290px;
+    padding: 128px 0;
+    
+    display: block;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+}
+
+.div-service{
+    width: 1224px;
+    height: 290px;
+    padding: 0 48px;
+    margin: 0 99.6px;
+    display: block;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+
+}
+.div-service > h2{
+    width: 1224px;
+    height: 38px;
+    margin-bottom: 8px;
+    display: block;
+    font-family: MerriweatherSans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: center;
+
+}
+
+.div-service > hr{
+    display: block;
+    width: 52px;
+    height: 2.4px;
+    border-top: 0.8px;
+    margin: 24px 586px;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+    background-color: rgb(244, 98, 58);
+    border-top-color: rgb(33, 37, 41);
+border-top-style: solid;
+border-top-width: 0.8px;
+}
+
+.icon-service{
+    width: 1272px;
+    height: 200.8px;
+    margin: 0 -24px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+    text-align: start;
+}
+
+.chil-service{
+    width: 270px;
+    height: 200.8px;
+    padding: 0 24px;
+    display: block;
+    flex-basis: auto;
+flex-grow: 0;
+flex-shrink: 0;
+font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgb(33, 37, 41); 
+}
+
+.chil-service-1{
+    width: 270px;
+    height: 152.8px;
+    margin-top: 48px;
+    display: block;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgb(33, 37, 41); 
+
+}
+
+.i-service{
+    width: 270px;
+    height: 60px;
+    margin-bottom: 8px;
+    display: block;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgb(33, 37, 41); 
+    text-align: center ;
+}
+
+.i-service > i{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(244, 98, 58);
+}

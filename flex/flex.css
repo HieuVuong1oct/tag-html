@@ -1,0 +1,13 @@
+.container1 {
+    display: flex;
+    margin: 20px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 21%;
+}
