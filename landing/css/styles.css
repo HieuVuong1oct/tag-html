@@ -245,9 +245,11 @@ a {
     align-items: center;
 
 }
-.nav-bars{
+
+.nav-bars {
     display: none;
 }
+
 .nav-header2>li {
     padding: 0 16px;
     display: flex;
@@ -683,7 +685,7 @@ h1 {
 .portfolio-anh {
     width: 506.388px;
     height: 272.663px;
-    display:inline-block;
+    display: inline-block;
     font-family: 'Merriweather Sans';
     font-size: 16px;
     font-weight: 400;
@@ -703,7 +705,7 @@ h1 {
     line-height: 24px;
     text-align: start;
     color: rgb(244, 98, 58);
-    
+
 
 }
 
@@ -734,7 +736,7 @@ h1 {
     bottom: 0px;
     opacity: 0;
 
-    
+
 }
 
 #section-page {
@@ -1166,19 +1168,20 @@ h1 {
     color: rgb(108, 117, 125);
 }
 
-@media(min-width:376px) and (max-width:769px){
+@media(min-width:376px) and (max-width:769px) {
 
-    #header2{
+    #header2 {
         width: 751.2px;
         height: 545px;
         padding-top: 160px;
         padding-bottom: 88px;
         background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../img/7.jpg);
-    background-origin: padding-box;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+        background-origin: padding-box;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
     header {
         width: 768px;
         height: 63px;
@@ -1199,28 +1202,29 @@ h1 {
         font-size: 16px;
         font-weight: 400;
         overflow: hidden;
-    } 
+    }
 
-    .preview{
+    .preview {
         display: none;
     }
 
-    .header2-2{
+    .header2-2 {
         background-color: white;
         width: 751.2px;
         position: fixed;
         margin-top: -162px;
-       border-bottom:0.1px solid rgba(0, 0, 0, 0.15);
-       z-index: 1000;
-        
+        border-bottom: 0.1px solid rgba(0, 0, 0, 0.15);
+        z-index: 1000;
+
     }
+
     .div-header2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    .start-b{
+    .start-b {
         color: black;
     }
 
@@ -1229,37 +1233,39 @@ h1 {
 
     }
 
-    .nav-bars{
+    .nav-bars {
         display: block;
         font-size: 30px;
         padding: 4px 12px;
         border: 0.8px solid rgba(0, 0, 0, 0.1);
     }
 
-    .header-content{
+    .header-content {
         width: 672px;
         height: 294px;
         padding: 0 24px;
         margin: 0 15.6px;
     }
 
-    .content1{
+    .content1 {
         width: 696px;
         height: 294px;
-        
+
         margin: 0 -12px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
-    .h1-content{
+
+    .h1-content {
         width: 672px;
         height: 137.6px;
-        padding: 0 12px; 
-        align-self: flex-end;   
+        padding: 0 12px;
+        align-self: flex-end;
         display: block;
     }
-    h1{
+
+    h1 {
         width: 672px;
         height: 86.4px;
         margin-bottom: 8px;
@@ -1268,11 +1274,12 @@ h1 {
         line-height: 43.2px;
         text-align: center;
     }
-    .h1-content > hr{
+
+    .h1-content>hr {
         margin: 24px 310px 24px 310px;
     }
 
-    .p-content{
+    .p-content {
         width: 672px;
         height: 156.4px;
         padding: 0 12px;
@@ -1280,7 +1287,7 @@ h1 {
         align-self: baseline;
     }
 
-    .p-content > p{
+    .p-content>p {
         width: 672px;
         height: 48px;
         margin-bottom: 48px;
@@ -1290,36 +1297,40 @@ h1 {
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
     }
-    #about{
+
+    #about {
         width: 751.2px;
         height: 241.325px;
         padding: 128px 0;
         display: block;
     }
 
-    .about-content{
+    .about-content {
         width: 672px;
         height: 241.325px;
         padding: 0 24px;
         margin: 0 15.6px;
         display: block;
     }
-    .h2-about{
+
+    .h2-about {
         width: 696px;
         height: 241.325px;
-        margin:  0px -12px;
+        margin: 0px -12px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .about-full{
+
+    .about-full {
         width: 672px;
         height: 241.325px;
         padding: 0 12px;
         display: block;
         text-align: center;
     }
-    .h2-about{
+
+    .h2-about {
         width: 672px;
         height: 33.725px;
         font-size: 28.112px;
@@ -1328,11 +1339,12 @@ h1 {
         text-align: center;
     }
 
-    .about-full > hr{
+    .about-full>hr {
         margin: 24px 310px 24px 310px;
         border-top: 0.8px;
     }
-    .about-full > p{
+
+    .about-full>p {
         width: 672px;
         height: 72px;
         display: block;
@@ -1341,21 +1353,22 @@ h1 {
         font-weight: 400;
         line-height: 24px;
     }
-    #service{
+
+    #service {
         width: 751.2px;
         height: 463.975px;
         padding: 128px 0;
         display: block;
     }
 
-    .div-service{
+    .div-service {
         width: 672px;
         height: 463.975px;
         padding: 0 24px;
         margin: 0 15.6px;
     }
 
-    .div-service>h2{
+    .div-service>h2 {
         width: 672px;
         height: 33.725px;
         margin-bottom: 8px;
@@ -1363,29 +1376,30 @@ h1 {
         font-size: 28.112px;
         font-weight: 500;
         line-height: 33.7344px;
-        text-align: center;    
+        text-align: center;
     }
 
-    .div-service>hr{
+    .div-service>hr {
         margin: 24px 310px 24px 310px;
         border-top: 0.8px;
     }
 
-    .icon-service{
+    .icon-service {
         width: 696px;
         height: 379.050px;
         margin: 0 -12px;
     }
-    .chil-service{
+
+    .chil-service {
         width: 324px;
         height: 189.525px;
         padding: 0 12px;
         display: block;
         text-align: center;
-        
+
     }
 
-    .chil-service-1{
+    .chil-service-1 {
         width: 324px;
         height: 141.525px;
         margin-top: 48px;
@@ -1393,18 +1407,20 @@ h1 {
         text-align: center;
     }
 
-    .i-service{
+    .i-service {
         width: 324px;
         height: 50.288px;
         border-bottom: 8px;
         display: block;
-       
+
     }
-    .i-service>i{
+
+    .i-service>i {
         display: inline-block;
         font-size: 33.52px;
     }
-    .chil-service-1>h3{
+
+    .chil-service-1>h3 {
         width: 324px;
         height: 27.238px;
         margin-bottom: 8px;
@@ -1414,31 +1430,37 @@ h1 {
         line-height: 27.2448px;
         text-align: center;
     }
-    .chil-service-1>p{
+
+    .chil-service-1>p {
         width: 324px;
         height: 48px;
         display: block;
     }
-    #portfolio{
+
+    #portfolio {
         width: 751.2px;
         height: 606.713px;
         display: block;
     }
-    .portfolio-div{
+
+    .portfolio-div {
         width: 751.2px;
         height: 606.713px;
         display: block;
     }
-    .div-flex{
+
+    .div-flex {
         width: 751.2px;
         height: 606.713px;
         flex-wrap: wrap;
     }
-    .portfolio-anh{
+
+    .portfolio-anh {
         width: 375.6px;
         height: 202.238px;
     }
-    .portfolio-a{
+
+    .portfolio-a {
         width: 375.6px;
         height: 202.238px;
         /* position: relative; */
@@ -1446,7 +1468,7 @@ h1 {
         /* position: relative; */
     }
 
-    .portfolio-cap{
+    .portfolio-cap {
         width: 375.6px;
         height: 202.238px;
         /* position: absolute; */
@@ -1457,23 +1479,25 @@ h1 {
         box-sizing: border-box;
     }
 
-    .portfolio-img{
-        width:375.6px ;
+    .portfolio-img {
+        width: 375.6px;
         height: 202.238px;
     }
-    #section-page{
-       width: 751.2px;
-       height: 118.125px;
-       padding: 128px 0; 
+
+    #section-page {
+        width: 751.2px;
+        height: 118.125px;
+        padding: 128px 0;
     }
-    .section-in{
+
+    .section-in {
         width: 672px;
         height: 118.125px;
         padding: 0 24px;
         margin: 0 15.6px;
     }
 
-    .section-in>h2{
+    .section-in>h2 {
         width: 672px;
         height: 33.725px;
         margin-bottom: 24px;
@@ -1482,47 +1506,53 @@ h1 {
         line-height: 33.7344px;
         text-align: center;
     }
-    #contact{
+
+    #contact {
         width: 751.2px;
         height: 1051.49px;
         padding: 128px 0;
-        display: block ;
+        display: block;
     }
-    .contact-in{
+
+    .contact-in {
         width: 672px;
         height: 801.487px;
         padding: 0 24px;
         margin: 0 15.6px;
     }
 
-    .contact-div{
+    .contact-div {
         width: 696px;
         height: 180.925px;
         margin: 0 -12px;
     }
-    .form{
+
+    .form {
         width: 696px;
         height: 458.4px;
         margin: 0 -12px 48px -12px;
     }
-    .sdt{
+
+    .sdt {
         width: 696px;
         height: 114.162px;
         margin: 0 -12px;
     }
-    .footer{
-       width: 751.2px;
-       height: 21px;
-       padding: 48px 0;
+
+    .footer {
+        width: 751.2px;
+        height: 21px;
+        padding: 48px 0;
     }
 
-    .footer-div{
+    .footer-div {
         width: 672px;
         height: 21px;
         padding: 0 24px;
         margin: 0 15.6px;
     }
-    .footer-content{
+
+    .footer-content {
         width: 672px;
         height: 21px;
         font-size: 14px;
@@ -1532,11 +1562,11 @@ h1 {
     }
 }
 
-@media(max-width:376px){
-    header{
+@media(max-width:376px) {
+    header {
         width: 375.2px;
         height: 63px;
-        
+
         background-color: white;
         border-bottom-color: #dc392d !important;
         border-bottom-style: solid;
@@ -1549,24 +1579,27 @@ h1 {
         right: 0;
         left: 0;
         z-index: 1030;
-        
+
     }
-    #header-div{
-       
-    }
-    .button-free{
-       display: none;
-    }
-    .preview{
+
+    #header-div {}
+
+    .button-free {
         display: none;
     }
-    #header2{
-        width: 358.4px;
-        margin-top:63px;
-        
-       
+
+    .preview {
+        display: none;
     }
-    .header2-2{
+
+    #header2 {
+        width: 358.4px;
+        margin-top: 63px;
+
+
+    }
+
+    .header2-2 {
         width: 358.4px;
         height: 40px;
         padding: 16px 0;
@@ -1576,16 +1609,17 @@ h1 {
         z-index: 1000;
     }
 
-    .div-header2{
-       width: 310.4px;
-       height: 40px;
-       padding: 0 24px;
-      margin: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+    .div-header2 {
+        width: 310.4px;
+        height: 40px;
+        padding: 0 24px;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
-    .start-b{
+
+    .start-b {
         width: 145.65px;
         height: 25.6px;
         padding: 5px 0;
@@ -1594,10 +1628,12 @@ h1 {
         font-size: 20px;
         color: rgb(33, 37, 41);
     }
-    .nav-header2{
+
+    .nav-header2 {
         display: none;
     }
-    .nav-bars{
+
+    .nav-bars {
         width: 30px;
         height: 30px;
         display: block;
@@ -1607,24 +1643,27 @@ h1 {
         color: rgb(33, 37, 41);
         border-radius: 6px;
     }
-    .header-content{
-       width: 358.4px;
-       height: 428.4px;
-       padding: 160px 0 88px 0;
-       margin: 0;
-       display: block;
-       text-align: center;
+
+    .header-content {
+        width: 358.4px;
+        height: 428.4px;
+        padding: 160px 0 88px 0;
+        margin: 0;
+        display: block;
+        text-align: center;
     }
-    .content1{
-       width: 334.4px;
-       height: 428.4px;
-       margin: 0 12px;
-       display: flex;
-       flex-wrap: wrap;
-       align-items: center;
-       justify-content: center ;
+
+    .content1 {
+        width: 334.4px;
+        height: 428.4px;
+        margin: 0 12px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
-    .h1-content{
+
+    .h1-content {
         width: 310.4px;
         height: 224px;
         padding: 0 24px;
@@ -1632,7 +1671,8 @@ h1 {
         display: block;
         text-align: center;
     }
-    h1{
+
+    h1 {
         width: 310.4px;
         height: 172.8px;
         margin-bottom: 8px;
@@ -1641,22 +1681,23 @@ h1 {
         text-align: center;
     }
 
-    .h1-content>hr{
-     width: 52px;
-     height: 2.4px;
-     border-top: 0.8px;
-     margin: 24px 129.2px;
+    .h1-content>hr {
+        width: 52px;
+        height: 2.4px;
+        border-top: 0.8px;
+        margin: 24px 129.2px;
     }
 
-    .p-content{
+    .p-content {
         width: 310.4px;
         height: 204.4px;
-        align-self:baseline;
+        align-self: baseline;
         display: block;
-        
+
         text-align: center;
     }
-    .p-content>p{
+
+    .p-content>p {
         width: 310.4px;
         height: 96px;
         margin-bottom: 48px;
@@ -1666,19 +1707,22 @@ h1 {
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
     }
-    #about{
-      width: 358.4px;
-      height: 309.088px;
-      padding: 128px 0;
-      display: block;
+
+    #about {
+        width: 358.4px;
+        height: 309.088px;
+        padding: 128px 0;
+        display: block;
     }
-    .about-content{
+
+    .about-content {
         width: 310.4px;
         height: 309.087px;
         margin: 0;
         padding: 0 24px;
     }
-    .h2-about{
+
+    .h2-about {
         width: 334.4px;
         height: 309.087px;
         margin: 0 -12px;
@@ -1686,14 +1730,15 @@ h1 {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .about-full{
+
+    .about-full {
         width: 310.4px;
         height: 309.087px;
         padding: 0 12px;
         display: block;
     }
 
-    .about-full>h2{
+    .about-full>h2 {
         width: 310.4px;
         height: 29.488px;
         margin-bottom: 8px;
@@ -1704,11 +1749,11 @@ h1 {
         text-align: center;
     }
 
-    .about-full>hr{
+    .about-full>hr {
         margin: 24px 129.2px;
     }
 
-    .about-full>p{
+    .about-full>p {
         width: 310.4px;
         height: 144px;
         margin-bottom: 24px;
@@ -1717,14 +1762,16 @@ h1 {
         line-height: 24px;
         text-align: center;
     }
-    #service{
+
+    #service {
         width: 358.4px;
         height: 797.740px;
         padding: 128px 0;
         display: block;
 
     }
-    .div-service{
+
+    .div-service {
         width: 310.4px;
         height: 797.737px;
         padding: 0 24px;
@@ -1732,47 +1779,53 @@ h1 {
         margin: 0;
     }
 
-    .div-service>h2{
+    .div-service>h2 {
         width: 310.4px;
         height: 29.488px;
         margin-bottom: 8px;
         display: block;
         font-size: 24.5768px;
         font-weight: 500px;
-        line-height:29.4922px;
+        line-height: 29.4922px;
         text-align: center;
     }
-    .div-service>hr{
+
+    .div-service>hr {
         margin: 24px 129.2px;
     }
-    .icon-service{
+
+    .icon-service {
         width: 334.4px;
         height: 717.050px;
         margin: 0 -12px;
         display: flex;
         flex-wrap: wrap;
     }
-    .chil-service{
+
+    .chil-service {
         width: 310.4px;
         height: 179.262px;
         padding: 0 12px;
         display: block;
     }
-    .chil-service-1{
+
+    .chil-service-1 {
         width: 310.4px;
         height: 131.262px;
         margin-top: 48px;
     }
-    .i-service{
+
+    .i-service {
         width: 310.4px;
         height: 41.438px;
         margin-bottom: 8px;
     }
-    .i-service>i{
+
+    .i-service>i {
         font-size: 27.628px;
     }
 
-    .chil-service-1>h3{
+    .chil-service-1>h3 {
         width: 310.4px;
         height: 25.825px;
         margin-bottom: 8px;
@@ -1782,7 +1835,7 @@ h1 {
         text-align: center;
     }
 
-    .chil-service-1>p{
+    .chil-service-1>p {
         width: 310.4px;
         height: 48px;
         font-size: 19.5px;
@@ -1790,36 +1843,43 @@ h1 {
         line-height: 24px;
         text-align: center;
     }
-    #portfolio{
+
+    #portfolio {
         width: 358.4px;
         height: 1157.850px;
         display: block;
     }
-    .portfolio-div{
+
+    .portfolio-div {
         width: 358.4px;
         height: 1157.850px;
     }
-    .div-flex{
+
+    .div-flex {
         width: 358.4px;
         height: 1157.850px;
         display: flex;
         flex-wrap: wrap;
     }
-    .portfolio-anh{
-        width: 358.4px ;
+
+    .portfolio-anh {
+        width: 358.4px;
         height: 192.975px;
     }
-    .portfolio-a{
+
+    .portfolio-a {
         position: relative;
-        width: 358.4px ;
+        width: 358.4px;
         height: 192.975px;
     }
-    .portfolio-img{
-        width: 358.4px ;
+
+    .portfolio-img {
+        width: 358.4px;
         height: 192.975px;
     }
-    .portfolio-cap{
-        width: 358.4px ;
+
+    .portfolio-cap {
+        width: 358.4px;
         height: 192.975px;
         position: absolute;
         align-items: center;
@@ -1827,51 +1887,57 @@ h1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-      padding: 0;
+        padding: 0;
     }
-    .cap{
+
+    .cap {
         width: 82.225px;
         height: 24px;
     }
-    .project{
+
+    .project {
         width: 127.338;
         height: 28.8px;
     }
-    #section-page{
+
+    #section-page {
         width: 358.4px;
         height: 143.375px;
         padding: 128px 0;
     }
-    .section-in{
+
+    .section-in {
         width: 310.4px;
         height: 143.375px;
         padding: 0 24px;
         margin: 0;
     }
 
-    .section-in>h2{
+    .section-in>h2 {
         width: 310.4px;
         height: 58.975px;
         margin-bottom: 24px;
         font-size: 24.5768px;
         font-weight: 500px;
-        line-height:29.4922px;
+        line-height: 29.4922px;
         text-align: center;
     }
-    #contact{
+
+    #contact {
         width: 358.4px;
         height: 1040.95px;
         padding: 128px 0;
         display: block;
     }
-    .contact-in{
+
+    .contact-in {
         width: 310.4px;
-        height:840.95px; 
+        height: 840.95px;
         padding: 0 24px;
         margin: 0;
     }
 
-    .contact-div{
+    .contact-div {
         width: 334.4px;
         height: 200.688px;
         margin: 0 -12px;
@@ -1880,13 +1946,13 @@ h1 {
         justify-content: center;
     }
 
-    .contact-hp{
+    .contact-hp {
         width: 334.4px;
         height: 200.688px;
         padding: 0 12px;
     }
 
-    .contact-hp>h2{
+    .contact-hp>h2 {
         width: 310.4px;
         height: 29.488px;
         margin-bottom: 8px;
@@ -1896,12 +1962,12 @@ h1 {
         text-align: center;
     }
 
-    .contact-hp>hr{
+    .contact-hp>hr {
         margin: 24px 129.2px;
         text-align: center;
     }
 
-    .contact-hp>p{
+    .contact-hp>p {
         width: 310.4px;
         height: 72px;
         margin-bottom: 48px;
@@ -1910,7 +1976,8 @@ h1 {
         line-height: 24px;
 
     }
-    .form{
+
+    .form {
         width: 334.4px;
         height: 483.4px;
         margin: 0 -12px 48px -12px;
@@ -1919,98 +1986,111 @@ h1 {
         justify-content: center;
     }
 
-    .input{
+    .input {
         width: 334.4px;
         height: 483.4px;
         padding: 0 12px;
         display: block;
     }
-    #contact-form{
+
+    #contact-form {
         width: 334.4px;
         height: 483.4px;
     }
 
-    .i-name{
+    .i-name {
         width: 310.4px;
         height: 83px;
         margin-bottom: 16px;
         font-size: 16px;
-    }
-    #name{
-        width: 260.8px;
-        height: 24.4px;
-        padding: 16px 36px 16px 12px;
-        
-    }
-    .i-name>label{
-        width: 284.8px;
-        height: 49.4px;
-        
-    }
-    .i-email{
-        width: 310.4px;
-        height: 83px;
-        margin-bottom: 16px;
-        font-size: 16px;
-    }
-    #email{
-        width: 260.8px;
-        height: 24.4px;
-        padding: 16px 36px 16px 12px;
-        
-    }
-    .i-email>label{
-        width: 284.8px;
-        height: 49.4px;
-        
     }
 
-    .i-phone{
+    #name {
+        width: 260.8px;
+        height: 24.4px;
+        padding: 16px 36px 16px 12px;
+
+    }
+
+    .i-name>label {
+        width: 284.8px;
+        height: 49.4px;
+
+    }
+
+    .i-email {
         width: 310.4px;
         height: 83px;
         margin-bottom: 16px;
         font-size: 16px;
     }
-    #phone{
+
+    #email {
         width: 260.8px;
         height: 24.4px;
         padding: 16px 36px 16px 12px;
-        
+
     }
-    .i-phone>label{
+
+    .i-email>label {
         width: 284.8px;
         height: 49.4px;
-        
+
     }
-    
-    .i-message{
+
+    .i-phone {
+        width: 310.4px;
+        height: 83px;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    #phone {
+        width: 260.8px;
+        height: 24.4px;
+        padding: 16px 36px 16px 12px;
+
+    }
+
+    .i-phone>label {
+        width: 284.8px;
+        height: 49.4px;
+
+    }
+
+    .i-message {
         width: 310.4px;
         height: 160px;
         margin-bottom: 16px;
         font-size: 16px;
     }
-    #message{
+
+    #message {
         width: 284.8px;
         height: 126.4px;
         padding: 16px 12px;
-        
+
     }
-    .i-message>label{
+
+    .i-message>label {
         width: 284.8px;
         height: 49.4px;
-        
+
     }
-    .sumbit{
+
+    .sumbit {
         width: 310.4px;
         height: 60.4px;
-        
+
     }
-    .btn-sumbit{
+
+    .btn-sumbit {
         width: 310.4px;
         height: 60.4px;
         padding: 20px 36px;
     }
-    .sdt{
+
+    .sdt {
         width: 334.4px;
         height: 108.863px;
         margin: 0 -12px;
@@ -2020,35 +2100,39 @@ h1 {
         padding-top: 52px;
     }
 
-    .sdt-lh{
+    .sdt-lh {
         width: 310.4px;
         height: 60.682px;
         padding: 0 12px;
         margin-bottom: 48px;
     }
-    .sdt-i>i{
+
+    .sdt-i>i {
         font-size: 24.5768px;
     }
-    .footer{
-            width: 358.4px;
-            height: 21px;
-            padding: 48px 0;
+
+    .footer {
+        width: 358.4px;
+        height: 21px;
+        padding: 48px 0;
     }
-    .footer-div{
+
+    .footer-div {
         width: 310.4px;
         height: 21px;
         margin-left: -26px;
         text-align: center;
     }
 
-    .footer-content{
+    .footer-content {
         width: 310.4px;
         height: 21px;
         color: rgb(108, 117, 125);
-        
+
 
     }
-    body{
+
+    body {
         overflow-x: hidden;
     }
 }
