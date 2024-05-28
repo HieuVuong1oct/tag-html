@@ -374,5 +374,23 @@ a{
     
 
 }
-
+.h1-content>hr {
+    width: 52px;
+    height: 2.4px;
+    border-top: 0.8px;
+    margin: 24px 129.2px;
+}
+.about-full>hr {
+    margin: 24px 129.2px;
+}
+.contact-hp>hr {
+    margin: 24px 129.2px;
+    text-align: center;
+}
+.div-service>hr {
+    margin: 24px 129.2px;
+}
+body {
+    overflow-x: hidden;
+}
 }
