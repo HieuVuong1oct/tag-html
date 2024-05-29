@@ -8,6 +8,7 @@ html,
 body {
     height: 100%;
     margin: 0;
+    width: 100%;
 }
 
 * {
@@ -17,8 +18,9 @@ body {
     font-size: 100%;
 }
 
-header {
 
+header {
+    /* width: 100%; */
     height: 63px;
     background-color: white;
     border-bottom-color: #dc392d !important;
@@ -38,19 +40,27 @@ header {
     font-weight: 400;
     overflow: hidden;
 }
-
+ main{
+    width: 100%;
+ }
+ section{
+    width: 100%;
+ }
 #header-div {
 
     display: flex;
     justify-content: space-between;
     height: 44.6px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .overView {
     width: 678px;
     padding: 0 12px;
     text-align: start;
+    flex:1;
+    align-items: center;
 }
 
 .overView-a {
@@ -78,6 +88,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 42.4px;
+    flex:0;
 }
 
 .fa-desktop {
@@ -130,10 +141,12 @@ header {
 
 .freeDownload {
     width: 678px;
-    text-align: right;
+    text-align: end;
     font-size: 16px;
     padding: 0 12px;
     line-height: 24px;
+    flex:1;
+    align-items: center;
 }
 
 .fa-github {
@@ -198,7 +211,7 @@ a {
     box-sizing: border-box;
     display: block;
     height: 640px;
-    width: 1519.2px;
+    width: 100%;
     margin: 0;
     text-align: start;
 
@@ -224,7 +237,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15.6px;
+    margin: 0 auto;
     width: 100%;
     padding: 0 24px;
 }
@@ -267,19 +280,19 @@ li {
 
 .header-content {
     height: 568px;
-    width: 1224px;
+    /* width: 100%; */
     padding: 0 48px;
     margin: 0 99.6px;
 
 }
 
 .content1 {
-    height: 568px;
-    width: 1272px;
-    margin: 0 -24px;
+    height: 100%;
+    /* width: 1272px; */
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Merriweather Sans';
@@ -383,7 +396,7 @@ h1 {
 
 #about {
     height: 222px;
-    width: 1519px;
+    width: 100%;
 
     padding: 128px 0;
     font-family: 'Merriweather Sans';
@@ -395,7 +408,7 @@ h1 {
 }
 
 .about-content {
-    width: 1224px;
+    /* width: 1224px; */
     height: 222px;
     /* box-sizing: border-box; */
     display: block;
@@ -410,7 +423,7 @@ h1 {
 }
 
 .h2-about {
-    width: 1272px;
+    /* width: 1272px; */
     height: 222px;
     margin: 0 -24px;
     box-sizing: border-box;
@@ -500,7 +513,7 @@ h1 {
 }
 
 #service {
-    width: 1519px;
+    width: 100%;
     height: 290px;
     padding: 128px 0;
 
@@ -513,7 +526,7 @@ h1 {
 }
 
 .div-service {
-    width: 1224px;
+    /* width: 1224px; */
     height: 290px;
     padding: 0 48px;
     margin: 0 99.6px;
@@ -523,11 +536,17 @@ h1 {
     font-weight: 400;
     line-height: 24px;
     color: rgb(33, 37, 41);
+    text-align: center;
 
 }
+/* .sv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
 
 .div-service>h2 {
-    width: 1224px;
+    /* width: 1224px; */
     height: 38px;
     margin-bottom: 8px;
     display: block;
@@ -544,7 +563,7 @@ h1 {
     width: 52px;
     height: 2.4px;
     border-top: 0.8px;
-    margin: 24px 586px;
+    margin: 24px auto;
     font-family: 'Merriweather Sans';
     font-size: 16px;
     font-weight: 400;
@@ -557,17 +576,18 @@ h1 {
 }
 
 .icon-service {
-    width: 1272px;
+    width: 100%;
     height: 200.8px;
     margin: 0 -24px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no wrap;
     font-family: 'Merriweather Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: rgb(33, 37, 41);
     text-align: start;
+    justify-content: center;
 }
 
 .chil-service {
@@ -644,7 +664,7 @@ h1 {
 }
 
 #portfolio {
-    width: 1519.2px;
+    width: 100%;
     height: 545.325px;
     box-sizing: border-box;
     display: block;
@@ -657,7 +677,7 @@ h1 {
 }
 
 .portfolio-div {
-    width: 1519.2px;
+    width: 100%;
     height: 545.325px;
     box-sizing: border-box;
     display: block;
@@ -667,10 +687,11 @@ h1 {
     line-height: 24px;
     text-align: start;
     color: rgb(33, 37, 41);
+    margin: 0 auto;
 }
 
 .div-flex {
-    width: 1519.2px;
+    width: 100%;
     height: 545.325px;
     display: flex;
     flex-wrap: wrap;
@@ -680,6 +701,8 @@ h1 {
     line-height: 24px;
     text-align: start;
     color: rgb(33, 37, 41);
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .portfolio-anh {
@@ -693,6 +716,8 @@ h1 {
     text-align: start;
     color: rgb(33, 37, 41);
     position: relative;
+    
+    
 }
 
 .portfolio-a {
@@ -705,7 +730,7 @@ h1 {
     line-height: 24px;
     text-align: start;
     color: rgb(244, 98, 58);
-
+    
 
 }
 
@@ -740,7 +765,7 @@ h1 {
 }
 
 #section-page {
-    width: 1519.2px;
+    width: 100%;
     height: 122.8px;
     padding: 128px 0px;
     display: block;
@@ -755,10 +780,10 @@ h1 {
 }
 
 .section-in {
-    width: 1224px;
+    width:100%;
     height: 122.8px;
     padding: 0px 48px;
-    margin: 0 99.6px;
+    margin: 0 auto;
     display: block;
     font-family: 'Merriweather Sans';
     font-size: 16px;
@@ -768,7 +793,7 @@ h1 {
 }
 
 .section-in>h2 {
-    width: 1224px;
+    /* width: 1224px; */
     height: 38.4px;
     margin-bottom: 24px;
     display: block;
@@ -811,10 +836,10 @@ h1 {
 }
 
 .contact-in {
-    width: 1224px;
+    /* width: 1224px; */
     height: 764px;
-    padding: 0 48px;
-    margin: 0 99.6px;
+    padding: 0 auto;
+    margin: 0 auto;
     display: block;
     font-family: 'Merriweather Sans';
     font-size: 16px;
@@ -825,7 +850,7 @@ h1 {
 }
 
 .contact-div {
-    width: 1272px;
+    /* width: 1272px; */
     height: 185.6px;
     margin: 0 -24px;
     display: flex;
@@ -840,7 +865,7 @@ h1 {
 }
 
 .contact-hp {
-    width: 588px;
+    /* width: 588px; */
     height: 185.6px;
     padding: 0 24px;
     display: block;
@@ -853,7 +878,7 @@ h1 {
 }
 
 .contact-hp>h2 {
-    width: 588px;
+    /* width: 588px; */
     height: 38.4px;
     margin-bottom: 8px;
     font-family: 'Merriweather Sans';
@@ -895,7 +920,7 @@ h1 {
 }
 
 .form {
-    width: 1272px;
+    /* width: 1272px; */
     height: 483.4px;
     margin-bottom: 48px;
     margin-left: -24px;
@@ -912,7 +937,7 @@ h1 {
 }
 
 .input {
-    width: 588px;
+    /* width: 588px; */
     height: 483.4px;
     padding: 0 24px;
     display: block;
@@ -1097,7 +1122,7 @@ h1 {
 }
 
 .sdt {
-    width: 1272px;
+    /* width: 1272px; */
     height: 72px;
     margin: 0 -24px;
     display: flex;
@@ -1136,7 +1161,7 @@ h1 {
 }
 
 .footer {
-    width: 1519.2px;
+    width: 100%;
     height: 21px;
     padding: 48px 0px;
     display: block;
@@ -1150,14 +1175,14 @@ h1 {
 }
 
 .footer-div {
-    width: 1224px;
+    /* width: 1224px; */
     height: 21px;
     padding: 0 48px;
     margin: 0 99.6px;
 }
 
 .footer-content {
-    width: 1224px;
+    /* width: 1224px; */
     height: 21px;
     display: block;
     font-family: 'Merriweather Sans';
