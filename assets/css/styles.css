@@ -273,8 +273,8 @@ li {
 .header-content {
     height: 568px;
     /* width: 100%; */
-    padding: 0 48px;
-    margin: 0 99.6px;
+    /* padding: 0 48px;
+    margin: 0 99.6px; */
 
 }
 
@@ -396,8 +396,8 @@ h1 {
     height: 222px;
     /* box-sizing: border-box; */
     display: block;
-    padding: 0 48px;
-    margin: 0 96px;
+    /* padding: 0 48px;
+    margin: 0 96px; */
     font-family: 'Merriweather Sans';
     font-size: 16px;
     font-weight: 400;
@@ -409,7 +409,7 @@ h1 {
 .h2-about {
     /* width: 1272px; */
     height: 222px;
-    margin: 0 -24px;
+    /* margin: 0 -24px; */
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -506,8 +506,8 @@ h1 {
 .div-service {
     /* width: 1224px; */
     height: 290px;
-    padding: 0 48px;
-    margin: 0 99.6px;
+    /* padding: 0 48px;
+    margin: 0 99.6px; */
     display: block;
     font-family: 'Merriweather Sans';
     font-size: 16px;
@@ -556,7 +556,7 @@ h1 {
 .icon-service {
     width: 100%;
     height: 200.8px;
-    margin: 0 -24px;
+    /* margin: 0 -24px; */
     display: flex;
     flex-wrap: no wrap;
     font-family: 'Merriweather Sans';
@@ -1149,8 +1149,8 @@ h1 {
 .footer-div {
     
     height: 21px;
-    padding: 0 48px;
-    margin: 0 99.6px;
+    /* padding: 0 48px;
+    margin: 0 99.6px; */
 }
 
 .footer-content {
@@ -1165,7 +1165,7 @@ h1 {
     color: rgb(108, 117, 125);
 }
 
-/* @media(min-width:376px) and (max-width:769px) {
+@media(min-width:376px) and (max-width:769px) {
 
     #header2 {
         width: 751.2px;
@@ -1385,6 +1385,8 @@ h1 {
         width: 696px;
         height: 379.050px;
         margin: 0 -12px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .chil-service {
@@ -1455,9 +1457,9 @@ h1 {
     .portfolio-anh {
         width: 375.6px;
         height: 202.238px;
-    } */
+    }
 
-    /* .portfolio-a {
+    .portfolio-a {
         width: 375.6px;
         height: 202.238px;
         
@@ -1557,9 +1559,9 @@ h1 {
         line-height: 21px;
         text-align: center;
     }
-} */
+}
 
-/* @media(max-width:376px) {
+@media(max-width:376px) {
     header {
         width: 375.2px;
         height: 63px;
@@ -2132,4 +2134,4 @@ h1 {
     body {
         overflow-x: hidden;
     }
-} */
+}
