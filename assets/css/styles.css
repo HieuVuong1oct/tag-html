@@ -1165,7 +1165,7 @@ h1 {
     color: rgb(108, 117, 125);
 }
 
-/* @media(min-width:376px) and (max-width:769px) {
+@media(min-width:376px) and (max-width:769px) {
 
     #header2 {
         width: 751.2px;
@@ -1385,6 +1385,8 @@ h1 {
         width: 696px;
         height: 379.050px;
         margin: 0 -12px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .chil-service {
@@ -1455,9 +1457,9 @@ h1 {
     .portfolio-anh {
         width: 375.6px;
         height: 202.238px;
-    } */
+    }
 
-    /* .portfolio-a {
+    .portfolio-a {
         width: 375.6px;
         height: 202.238px;
         
@@ -1557,9 +1559,9 @@ h1 {
         line-height: 21px;
         text-align: center;
     }
-} */
+}
 
-/* @media(max-width:376px) {
+@media(max-width:376px) {
     header {
         width: 375.2px;
         height: 63px;
@@ -2132,4 +2134,4 @@ h1 {
     body {
         overflow-x: hidden;
     }
-} */
+}

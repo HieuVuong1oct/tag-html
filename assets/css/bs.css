@@ -39,7 +39,7 @@ header {
     margin-top: 63px;
     display: block;
     height: 640px;
-    width: 1519.2px;
+    /* width: 1519.2px; */
 }
 
 .nav-bars{
@@ -65,7 +65,7 @@ header {
 }
 
 .page-top{
-    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../bs-img/7.jpg);
+    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../img/7.jpg);
     background-origin: padding-box;
     background-position: 50%;
     background-repeat: no-repeat;
