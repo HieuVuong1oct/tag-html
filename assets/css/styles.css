@@ -20,7 +20,7 @@ body {
 
 
 header {
-    /* width: 100%; */
+    width: 100% ;
     height: 63px;
     background-color: white;
     border-bottom-color: #dc392d !important;
@@ -56,10 +56,10 @@ header {
 }
 
 .overView {
-    width: 678px;
+    /* width: 678px; */
     padding: 0 12px;
-    text-align: start;
-    flex:1;
+    /* text-align: start; */
+    /* flex:1; */
     align-items: center;
 }
 
@@ -78,8 +78,8 @@ header {
 }
 
 .preview {
-    width: 180px;
-    text-align: start;
+    /* width: 180px; */
+    /* text-align: start; */
     padding: 0 12px;
     font-size: 16px;
     line-height: 24px;
@@ -88,7 +88,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 42.4px;
-    flex:0;
+    /* flex:0; */
 }
 
 .fa-desktop {
@@ -140,12 +140,12 @@ header {
 }
 
 .freeDownload {
-    width: 678px;
-    text-align: end;
+    /* width: 678px; */
+    /* text-align: end; */
     font-size: 16px;
     padding: 0 12px;
     line-height: 24px;
-    flex:1;
+    /* flex:1; */
     align-items: center;
 }
 
@@ -1193,7 +1193,7 @@ h1 {
     color: rgb(108, 117, 125);
 }
 
-@media(min-width:376px) and (max-width:769px) {
+/* @media(min-width:376px) and (max-width:769px) {
 
     #header2 {
         width: 751.2px;
@@ -1483,20 +1483,20 @@ h1 {
     .portfolio-anh {
         width: 375.6px;
         height: 202.238px;
-    }
+    } */
 
-    .portfolio-a {
+    /* .portfolio-a {
         width: 375.6px;
         height: 202.238px;
-        /* position: relative; */
+        
         display: block;
-        /* position: relative; */
+       
     }
 
     .portfolio-cap {
         width: 375.6px;
         height: 202.238px;
-        /* position: absolute; */
+       
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -1585,9 +1585,9 @@ h1 {
         line-height: 21px;
         text-align: center;
     }
-}
+} */
 
-@media(max-width:376px) {
+/* @media(max-width:376px) {
     header {
         width: 375.2px;
         height: 63px;
@@ -2160,4 +2160,4 @@ h1 {
     body {
         overflow-x: hidden;
     }
-}
+} */
