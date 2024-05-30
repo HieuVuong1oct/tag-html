@@ -5,7 +5,6 @@
 //     let dof = doC*(9/5)+32;
 //     return dof;
 // }
-
 // console.log("Chuyển sang độ F là : " ,chuyenDoi());
 
 //bài 2
@@ -25,7 +24,6 @@
 //bài 3
 
 // function kiemTra(a,b){
-
 //     if(typeof(a)=='number' && typeof(b)=='number'){
 //        console.log("Hai tham số là number");
 //        if(a>b){
@@ -38,18 +36,16 @@
 //     }else{
 //         console.log("Tham số không phải number");
 //     }
-    
-    
 // }
 // kiemTra(1,2);
+
 
 // var thamSo1 = prompt("Nhập tham số thứ nhất: ");
 // var thamSo2 = prompt("Nhập tham số thứ hai: ");
 // var so1 = parseFloat(thamSo1);
 // var so2 = parseFloat(thamSo2);
 // if(!isNaN(so1) && !isNaN(so2)){
-//     kiemTra(so1,so2);
-    
+//     kiemTra(so1,so2); 
 // }else{
 //     console.log("Tham số nhập vào sai");
 // }
@@ -57,17 +53,14 @@
 //bài 4
 
 // function giaiThua(a){
-//         if(Number.isInteger(a)) {
-                   
+//         if(Number.isInteger(a)) {              
 //             if(a>=0){ 
 //                 if(a==0){
 //                 return 1;
 //             }else{
-               
 //                 return a*giaiThua(a-1);
 //             }
 //         } 
-
 //         }else{  
 //             console.log(a, "không là số nguyên, không có kết quả");
 //         }
@@ -89,7 +82,6 @@
 //     let b = a.toLowerCase();
 //     let c = b.charAt(0).toUpperCase() + b.slice(1);
 //     console.log(c);
-    
 // }
 // console.log(vietHoa());
 
@@ -111,8 +103,7 @@
 //                 b[i] = b[j];
 //                 b[j] = c;
 //             }
-//         }
-       
+//         } 
 //     }
 //     // b.sort((a,b) => a - b );
 //     console.log(b);
@@ -124,13 +115,11 @@
 // var a = prompt("Nhập username : ");
 // var b = prompt("Nhập password : ");
 // var c = prompt("Nhập confirm : ");
-
 // var Taotk = {
 //     username: a,
 //     password: b,
 //     confirm: c
 // };
-
 // function kiemTra(){
 //     if(typeof Taotk.username === 'string' && Taotk.username.trim().length > 0 && Taotk.username.length <= 20 
 //         && Taotk.password.length >= 6 && Taotk.password.length <= 32 && Taotk.confirm == Taotk.password){
@@ -139,5 +128,28 @@
 //         console.log("Fail");
 //     }
 // }
-
 // kiemTra();
+
+
+// var a = prompt("Nhập username : ");
+// var b = prompt("Nhập password : ");
+// var c = prompt("Nhập confirm : ");
+// var Taotk = {
+//     username: a,
+//     password: b,
+//     confirm: c
+// };
+// function kiemTra(){
+//     switch (true) {
+//         case (typeof Taotk.username === 'string' && Taotk.username.trim().length > 0 && Taotk.username.length <= 20 
+//          && Taotk.password.length >= 6 && Taotk.password.length <= 32 && Taotk.confirm == Taotk.password):
+//             console.log("Pass");
+//             break;
+//         default:
+//             console.log("Fail");
+//     }
+// }
+// kiemTra();
+
+
+
