@@ -94,3 +94,50 @@
 // console.log(vietHoa());
 
 //bài 7
+
+// function soChan(){
+//     let a = [1,4,3,2,5,6];
+//     let b = [];
+//     for (var i=0;i<=a.length;i++){
+//         if(a[i]%2==0){
+//             b.push(a[i]);
+//         }
+//     }
+//     for(var i=0;i<=b.length;i++){
+//         let c;
+//         for(var j = i+1;j<=b.length;j++){
+//             if(b[i]<b[j]){
+//                 c = b[i];
+//                 b[i] = b[j];
+//                 b[j] = c;
+//             }
+//         }
+       
+//     }
+//     // b.sort((a,b) => a - b );
+//     console.log(b);
+// }
+// console.log(soChan());
+
+//bài 8
+
+// var a = prompt("Nhập username : ");
+// var b = prompt("Nhập password : ");
+// var c = prompt("Nhập confirm : ");
+
+// var Taotk = {
+//     username: a,
+//     password: b,
+//     confirm: c
+// };
+
+// function kiemTra(){
+//     if(typeof Taotk.username === 'string' && Taotk.username.trim().length > 0 && Taotk.username.length <= 20 
+//         && Taotk.password.length >= 6 && Taotk.password.length <= 32 && Taotk.confirm == Taotk.password){
+//         console.log("Pass");
+//     }else{
+//         console.log("Fail");
+//     }
+// }
+
+// kiemTra();
