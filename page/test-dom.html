@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #search_advance{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tìm kiếm dữ liệu</h1>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>Nhập tiêu đề</td>
+                <td>
+                    <input type="text" id="title" value=""/> <br/>
+                    <a href="#" id="show_search_advance" >Tìm kiếm nâng cao</a>
+                </td>
+            </tr>
+            <tr id="search_advance">
+                <td>Chọn chuyên mục</td>
+                <td>
+                    <select id="category">
+                        <option value="1">PHP</option>
+                        <option value="2">Javascript</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" id="btn_search" value="Tìm kiếm"/>
+                </td>
+            </tr>
+        </table>
+
+        <h1>Xóa thẻ HTML</h1>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>1</td>
+                <td>Tiêu đề thứ nhất</td>
+                <td>
+                    <input type="button" value="Delete"/>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tiêu đề thứ hai</td>
+                <td>
+                    <input type="button" value="Delete"/>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tiêu đề thứ ba</td>
+                <td>
+                    <input type="button" value="Delete"/>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tiêu đề thứ tư</td>
+                <td>
+                    <input type="button" value="Delete"/>
+                </td>
+            </tr>
+        </table>
+<!-- 
+        <h1>Thêm thẻ HTML</h1>
+ 
+        <input type="text" id="title" value=""/> 
+        <input type="button" id="button_add" value="Add"/>
+         
+        <div id="result"></div> -->
+        <script src="../js/test-dom.js"></script>
+</body>
+</html>

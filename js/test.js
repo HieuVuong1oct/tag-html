@@ -94,3 +94,4 @@
 // testp.innerHTML = "Không chào"
 // console.log(testp.innerText)
 // console.log(testp.textContent)
+
