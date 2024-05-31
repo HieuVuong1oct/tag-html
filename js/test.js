@@ -1,45 +1,31 @@
 
+//STRING
+// tìm chuỗi
+var a = ' hieuvuongg g';
+console.log(a.indexOf('v',9));
 
-// 
+//cắt chuỗi
+console.log(a.slice(0,4));
 
+//ghi đè
+console.log(a.replace('g','m'));
+console.log(a.replace(/g/g,'m'));
 
+//Chữ hoa, chữ thường
+console.log(a.toUpperCase());
+console.log(a.toLowerCase());
 
-
-
-
-
-
-
-
-
-
-// //STRING
-// // tìm chuỗi
-// var a = ' hieuvuongg g';
-// console.log(a.indexOf('v',9));
-
-// //cắt chuỗi
-// console.log(a.slice(0,4));
-
-// //ghi đè
-// console.log(a.replace('g','m'));
-// console.log(a.replace(/g/g,'m'));
-
-// //Chữ hoa, chữ thường
-// console.log(a.toUpperCase());
-// console.log(a.toLowerCase());
-
-// //Loại bỏ kí tự trắng đầu và cuối
-// console.log(a.trim());
+//Loại bỏ kí tự trắng đầu và cuối
+console.log(a.trim());
 
 
-// //cắt chuỗi thành array
-// var b = 'v,d,m,h';
-// console.log(b.split(','));
-// console.log(b.split(',',2));
+//cắt chuỗi thành array
+var b = 'v,d,m,h';
+console.log(b.split(','));
+console.log(b.split(',',2));
 
-// //lấy ra kí tự tương ứng
-//  console.log(b.charAt(1))
+//lấy ra kí tự tương ứng
+ console.log(b.charAt(1))
 
 
  //ARRAY
