@@ -1,10 +1,10 @@
 const m = 'manhinh';
-// nội dung ô hiển thị ban đầu bằng 0
+
 function reset(){
     let resetMh = document.getElementById(m);
     resetMh.innerText = '0';
 }
-// xóa kí tự cuối cùng ô hiển thị
+
 function del(){
     let delMh = document.getElementById(m);
     delMh.innerText = delMh.innerText.slice(0,-1);
@@ -12,7 +12,7 @@ function del(){
         delMh.innerText = '0';
     }
 }
-// thêm kí tự vào ô hiển thị , nếu kí tự đang là 0 thay bằng kí tự mới
+
 function add(a){
     let addMh = document.getElementById(m);
     if(addMh.innerText === '0'){
@@ -21,7 +21,7 @@ function add(a){
         addMh.innerText += a;
     }
 }
-// tính toán và hiển thị kết quả
+
 function result(){
     let kq = document.getElementById(m);
     try{
@@ -32,7 +32,7 @@ function result(){
     
 }
 
-//căn bậc 2
+
 function cb2(){
     let cb = document.getElementById(m);
     try{
@@ -42,7 +42,7 @@ function cb2(){
     }
 }
 
-//mũ 2
+
 //  function m2(){
 //     let bp = document.getElementById(m);
 //     try {
