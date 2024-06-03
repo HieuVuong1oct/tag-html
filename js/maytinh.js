@@ -8,6 +8,9 @@ function reset(){
 function del(){
     let delMh = document.getElementById(m);
     delMh.innerText = delMh.innerText.slice(0,-1);
+    if(delMh.innerText == ""){
+        delMh.innerText = '0';
+    }
 }
 // thêm kí tự vào ô hiển thị , nếu kí tự đang là 0 thay bằng kí tự mới
 function add(a){
@@ -40,13 +43,13 @@ function cb2(){
 }
 
 //mũ 2
- function m2(){
-    let bp = document.getElementById(m);
-    try {
-        bp.innerText = eval(bp.innerText**2);
+//  function m2(){
+//     let bp = document.getElementById(m);
+//     try {
+//         bp.innerText = eval(bp.innerText**2);
         
-    } catch{
+//     } catch{
         
-        bp.innerText = "error";
-    }
- }
+//         bp.innerText = "error";
+//     }
+//  }

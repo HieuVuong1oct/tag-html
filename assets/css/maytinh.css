@@ -1,5 +1,5 @@
 .maytinh{
-    width: 250px;
+    width: 500px;
     
 }
 
@@ -8,13 +8,7 @@
         background-color: white;
         color: black;
         font-size: 20px;
-        text-align: right;
-        padding: 10px;
-        box-sizing: border-box;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-   
-    
+        border-radius: 10px;
 }
 
 .row{
