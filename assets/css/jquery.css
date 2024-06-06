@@ -1,0 +1,7 @@
+
+#myDiv {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: none; /* Ẩn phần tử ban đầu */
+}

@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-$("button").click(function(){
-$("#div1").load("demo_test.txt");
-});
-});
-</script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script type="text/javascript" src="../assets/jquery/jquery-3.7.1.min.js"></script>
+   <title>Document</title>
+   <script src="../js/jquery.js"></script>
 </head>
 <body>
-
-<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
-
-<button>Get External Content</button>
-
-</body>
-</html>
-              
-
-   <body>
-
-
-
-
-      <h1>Hello</h1>
-
-
-
-
+   <input type="text" id="nameA" value="0"> <input type="text" id="nameB" value="0">
+   <div>Max: <span id="result"></span></div>
+   <div class="box"> BOX 
+      <ul id="list">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+      <li>item 6</li>
+      <li>item 7</li>
+    </ul>
+   </div>
+  
+   <ul id="list1">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+      <li>item 6</li>
+      <li>item 7</li>
+    </ul>
+    <button type="button" id="add">Add</button>
+    <button type="button" id="remove">remove</button>
+    <button type="button" id="clone">Clone</button>
+    <button type="button" id="removeClone">Remove Clone</button>
+    <button type="button" id="move">Move</button>
    </body>
 
 </html>
