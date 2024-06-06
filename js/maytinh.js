@@ -15,21 +15,33 @@ function del(){
 
 function add(a){
     let addMh = document.getElementById(m);
+    
     if(addMh.innerText === '0'){
         addMh.innerText = a;
     }else{
         addMh.innerText += a;
     }
+    
+    
+    
 }
 
 function result(){
     let kq = document.getElementById(m);
+    if (kq.innerText.includes('--')) {
+        kq.innerText = kq.innerText.replace(/--/g, '+');
+        
+    }
+    if(kq.innerText.includes('++')){
+        kq.innerText = kq.innerText.replace('++', '+');
+    }
     try{
+        
         kq.innerText = eval(kq.innerText);
     }catch{
-        kq.innerText = "error";
-    }
+        kq.innerText= "error";
     
+}
 }
 
 

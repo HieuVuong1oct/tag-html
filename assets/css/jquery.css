@@ -1,7 +1,45 @@
+.box2 {
+  background-color: green;
+    border: 3px solid #eee;
+    display: none;
+    height: 100px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 150px;
+  }
+  
+  .mau{
+    background-color: red;
+  }
 
-#myDiv {
-    width: 200px;
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  .box3  {
+    background-color: green;
+    border: 3px solid #eee;
+    display: none;
+    height: 100px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 150px;
+  }
+
+  .tab-list li {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    padding: 5px 10px;
+  }
+  .tab-content {
+    border: 3px solid #eee;
     height: 200px;
-    background-color: lightblue;
-    display: none; /* Ẩn phần tử ban đầu */
-}
+    margin-top: 5px;
+    padding: 10px;
+    width: 600px;
+  }
+  .box4 {
+    display: none;
+  }
