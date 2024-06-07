@@ -39,13 +39,20 @@ $(document).ready(function(){
     })
 
     $('.result').click(function(){
-        if ($('#manhinh').text().includes('--')) {
-            $('#manhinh').text($('#manhinh').text().replace(/--/g, '+'));
+        // if ($('#manhinh').text().includes('--')) {
+        //     $('#manhinh').text($('#manhinh').text().replace(/--/g, '+'));
             
+        // }
+        // if($('#manhinh').text().includes('++')){
+        //    $('#manhinh').text($('#manhinh').text().replace(/\+\+/g, '+'));
+        // }
+        if($('#manhinh').text().indexOf('--') != '-1'){
+            $('#manhinh').text($('#manhinh').text().replace(/--/g, '+'));
         }
-        if($('#manhinh').text().includes('++')){
-           $('#manhinh').text($('#manhinh').text().replace(/\+\+/g, '+'));
+        if($('#manhinh').text().indexOf('++') != '-1'){
+            $('#manhinh').text($('#manhinh').text().replace(/\+\+/g, '+'));
         }
+        
         try{
             $('#manhinh').text(eval($('#manhinh').text()));
         }catch{

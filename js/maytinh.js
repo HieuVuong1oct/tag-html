@@ -33,7 +33,7 @@ function result(){
         
     }
     if(kq.innerText.includes('++')){
-        kq.innerText = kq.innerText.replace('++', '+');
+        kq.innerText = kq.innerText.replace(/\+\+/g, '+');
     }
     try{
         
