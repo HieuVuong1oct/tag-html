@@ -44,7 +44,7 @@ $(document).ready(function(){
             
         }
         if($('#manhinh').text().includes('++')){
-           $('#manhinh').text($('#manhinh').text().replace('++', '+'));
+           $('#manhinh').text($('#manhinh').text().replace(/\+\+/g, '+'));
         }
         try{
             $('#manhinh').text(eval($('#manhinh').text()));
