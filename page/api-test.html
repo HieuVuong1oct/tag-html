@@ -8,18 +8,67 @@
   <script src="../assets/jquery/jquery-3.7.1.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="../assets/css/app.css">
 </head>
 <body>
-    <h1>Dự báo thời tiết</h1>
-    <form id="weather-form">
-        <input type="text" id="lat" placeholder="Nhập tọa độ" required>
-        <input type="text" id="lon" placeholder="Nhập tọa độ" required>
-        <button type="submit">Dự báo</button>
-    </form>
-    <div id="weather-result"></div>
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+      
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-8 col-lg-6 col-xl-4">
+      
+              <h3 class="mb-4 pb-2 fw-normal">Check the weather forecast</h3>
+      
+              <div class="input-group rounded mb-3">
+                <input type="search" id="city" class="form-control rounded" placeholder="Thành phố" aria-label="Search"
+                  aria-describedby="search-addon" />
+                  <button id="getData">Lấy dữ liệu</button>
+                
+              </div>
+              
+              <div id="lat"> </div>
+              <div id="lon"></div>
+              <button id="getD">Kiểm tra thời tiết</button>
+              <!-- <div class="mb-4 pb-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1" checked />
+                  <label class="form-check-label" for="inlineRadio1">Celsius</label>
+                </div>
+      
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2" />
+                  <label class="form-check-label" for="inlineRadio2">Farenheit</label>
+                </div>
+              </div>
+       -->
+              <div class="card shadow-0 border">
+                <div class="card-body p-4">
+      
+                  <h4 class="name mb-1 sfw-normal">New York, US</h4>
+                  <p class="weather-icon">Thời tiết hôm nay</p>
+                  <p class="may mb-2">Nhiều mây</p>
+                  <p class="doc mb-2">Nhiệt độ hiện tại: 5.42°C</p>
+                  <p class="domax mb-2">Nhiệt độ cao nhất: 5.42°C</p>
+                  <p class="domin mb-2">Nhiệt độ thấp nhất: 5.42°C</p>
+                  <p class="doam mb-2">Độ ẩm: 65%</p>
+                  <p class="tamnhin mb-2">Tầm nhìn: 1000m</p>
+                  <p class="gio mb-2">Tốc độ gió: 0.3m/s</p>
+                  
+      
+                 
+      
+                </div>
+              </div>
+      
+            </div>
+          </div>
+      
+        </div>
+      </section>
 
     
-    <script src="api-test.js"></script>
+    <script src="../js/api-test.js"></script>
 </body>
 </html>
