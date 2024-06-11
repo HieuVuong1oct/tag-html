@@ -17,18 +17,26 @@
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-md-8 col-lg-6 col-xl-4">
       
-              <h3 class="mb-4 pb-2 fw-normal">Check the weather forecast</h3>
+              <h3 class="mb-4 pb-2 fw-normal">Thời tiết theo tọa độ</h3>
       
               <div class="input-group rounded mb-3">
                 <input type="search" id="city" class="form-control rounded" placeholder="Thành phố" aria-label="Search"
                   aria-describedby="search-addon" />
-                  <button id="getData">Lấy dữ liệu</button>
+                  <button id="getData">Lấy tọa độ</button>
                 
               </div>
+              <div>
+                <input type="text" id="lat" placeholder="" required>
+                <label for="lat">Vĩ độ Bắc </label>
+            </div>
+              <div>
+                <input type="text" id="lon" placeholder="" required>
+                <label for="lon">Kinh độ Đông </label>
+              </div>
               
-              <div id="lat"> </div>
-              <div id="lon"></div>
-              <button id="getD">Kiểm tra thời tiết</button>
+              
+              <button id="getD">Xem thời tiết hôm nay</button>
+              
               <!-- <div class="mb-4 pb-2">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
@@ -46,22 +54,24 @@
               <div class="card shadow-0 border">
                 <div class="card-body p-4">
       
-                  <h4 class="name mb-1 sfw-normal">New York, US</h4>
-                  <p class="weather-icon">Thời tiết hôm nay</p>
-                  <p class="may mb-2">Nhiều mây</p>
-                  <p class="doc mb-2">Nhiệt độ hiện tại: 5.42°C</p>
-                  <p class="domax mb-2">Nhiệt độ cao nhất: 5.42°C</p>
-                  <p class="domin mb-2">Nhiệt độ thấp nhất: 5.42°C</p>
-                  <p class="doam mb-2">Độ ẩm: 65%</p>
-                  <p class="tamnhin mb-2">Tầm nhìn: 1000m</p>
-                  <p class="gio mb-2">Tốc độ gió: 0.3m/s</p>
+                  <h4 class="name mb-1 sfw-normal"></h4>
+                  <p class="dt"> </p>
+                  <p class="weather-icon"></p>
+                  <p class="may mb-2"></p>
+                  <p class="doc mb-2"></p>
+                  <p class="domax mb-2"></p>
+                  <p class="domin mb-2"></p>
+                  <p class="doam mb-2"></p>
+                  <p class="tamnhin mb-2"></p>
+                  <p class="gio mb-2"></p>
                   
       
                  
       
                 </div>
               </div>
-      
+              <button id="mai">Xem thời tiết ngày mai</button>
+              <button id="kia">Xem thời tiết ngày kia</button>
             </div>
           </div>
       

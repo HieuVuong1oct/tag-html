@@ -65,5 +65,33 @@ $(document).ready(function() {
     });
     
     })
+
+    $(document).ready(function() {
+        $('#getData').click(function(){
+           
+            $.ajax({
+                url: 'http://api.openweathermap.org/geo/1.0/direct',
+                type: 'GET',
+                data: {
+                    q: city,
+                    limit : limit,
+                    appid: apiKey,
+                    units: 'metric'
+                },
+                success: function(response) {
+                    // console.log(response);
+                    // resJson = JSON.stringify(response,null, 2);
+                    res = Object.values(response)[0];
+                   
+                    $('#lat').val(res.lat);
+                    $('#lon').val(res.lon);
+                },
+                error: function(error) {
+                    console.error('There was an error with the GET request:', error);
+                }
+            });
+        });
+        
+        })
    
 
