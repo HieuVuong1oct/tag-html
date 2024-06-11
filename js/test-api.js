@@ -66,32 +66,4 @@ $(document).ready(function() {
     
     })
    
-// $(document).ready(function() {
-//     $('#getData').click(function(){
-//         // var city = $('#city').val();
-//         // var apiKey = 'b475a77ad1eee9360b814683bff76d02';
-//         // const limit = 1;
-//         $.ajax({
-//             url: 'http://api.openweathermap.org/geo/1.0/direct?q=Hanoi&limit=1&appid=b475a77ad1eee9360b814683bff76d02',
-//             type: 'GET',
-//             // data: {
-//             //     q: city,
-//             //     limit : limit,
-//             //     appid: apiKey,
-//             //     units: 'metric'
-//             // },
-//             success: function(response) {
-//                 console.log(response);
-//                 // resJson = JSON.stringify(response,null, 2);
-//                 // res = Object.values(response)[0];
-               
-//                 // $('#lat').val(res.lat);
-//                 // $('#lon').val(res.lon);
-//             },
-//             error: function(error) {
-//                 console.error('There was an error with the GET request:', error);
-//             }
-//         });
-//     });
-    
-//     })
+
