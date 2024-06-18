@@ -1,3 +1,4 @@
+
 header {
         background-color: white;
         border-bottom-color: #dc392d !important;
@@ -8,7 +9,7 @@ header {
         height: 63px;
 }
 .overView-a {
-    padding: 8px 12px;
+    padding: 8px auto;
     border: 0.8px;
     font-size: 12px;
     line-height: 12px;
@@ -21,7 +22,7 @@ header {
     border-bottom: 0.8px;
     border-left: 0.8px;
     border-right: 8px;
-    padding: 8px 12px;
+    padding: 8px auto;
     color: red;
     background-color: #f0e3e7;
     border-radius: 4px;
@@ -34,16 +35,19 @@ header {
     line-height: 12px;
     text-decoration: none;
 }
-
+body {
+    overflow-x: hidden;
+}
 .page-top{
+    width: 100%;
     margin-top: 63px;
     display: block;
     height: 640px;
     /* width: 1519.2px; */
 }
 
-.nav-bars{
-    
+.nav-bar{
+    width: 100%;
 }
 
 .start-b{
@@ -84,7 +88,7 @@ header {
     width: 52px;
     height: 3.2px;
     border-top: 0.8px;
-    margin: 24px 374px;
+    margin: 24px auto;
     border-top-color: rgb(33, 37, 41);
     border-top-style: solid;
     border-top-width: 0.8px;
@@ -130,7 +134,7 @@ font-family: 'Times New Roman', Times, serif;
     width: 52px;
     height: 2.4px;
     border-top: 0.8px;
-    margin: 24px 374px;
+    margin: 24px auto;
 
     font-family: 'Merriweather Sans';
     font-size: 16px;
@@ -152,7 +156,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .btn-about {
-    width: 94.35 px;
+    /* width: 94.35 px; */
    height: 20.4px;
    padding: 20px 36px;
    background-color: rgb(248, 249, 250);    
@@ -175,7 +179,7 @@ font-family: 'Times New Roman', Times, serif;
     width: 52px;
     height: 2.4px;
     border-top: 0.8px;
-    margin: 24px 586px;
+    margin: 24px auto;
     font-family: 'Merriweather Sans';
     font-size: 16px;
     font-weight: 400;
@@ -206,14 +210,23 @@ font-family: 'Times New Roman', Times, serif;
 .portfolio-cap {
     display: none;
 }
-
+.portfolio-anh{
+width: 30%;
+}
+.portfolio-img{
+    width: 100%;
+    height: auto;
+}
+.div-flex{
+    justify-content: space-around;
+}
 .section-page{
     padding: 128px 0;
 }
 
 .section-in>a {
     
-    width: 122.012px;
+    /* width: 122.012px; */
     height: 20.4px;
     padding: 20px 36px;
   
@@ -226,7 +239,9 @@ font-family: 'Times New Roman', Times, serif;
     border-radius: 160px;
     text-decoration: none;
 }
-
+/* .container-fluid{
+    padding: 0 ;
+} */
 .contact-hp>h2 {
     
     
@@ -246,7 +261,7 @@ font-family: 'Times New Roman', Times, serif;
     width: 52px;
     height: 2.4px;
     border-top: 0.8px;
-    margin: 24px 268px 24px 268px;
+    margin: 24px auto;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -274,7 +289,7 @@ label{
 }
 
 .btn-sumbit {
-    width: 588px;
+    /* width: 588px; */
     /* height: 60.4px; */
     padding: 20px 36px;
     display: block;
@@ -307,6 +322,11 @@ a{
     font-size: 17px;
 }
 
+@media (min-width:377px) and (max-width:768px){
+    body{
+        zoom:0.9;
+    }
+}
 @media(max-width:376px) {
     header {
         /* width: 375.2px;
@@ -327,7 +347,7 @@ a{
 
     }
     .page-top{
-        width: 358.4px;
+        /* width: 358.4px; */
         height: 676.4px;
         padding-bottom: 30px;
        
@@ -369,7 +389,7 @@ a{
     font-family: 'Times New Roman', Times, serif;
 }
 .btn-sumbit {
-    width: 334.4px;
+    /* width: 334.4px; */
     height: 60.4px;
     
 
@@ -378,19 +398,18 @@ a{
     width: 52px;
     height: 2.4px;
     border-top: 0.8px;
-    margin: 24px 129.2px;
+    margin: 24px auto;
 }
 .about-full>hr {
-    margin: 24px 129.2px;
+    margin: 24px auto;
 }
 .contact-hp>hr {
-    margin: 24px 129.2px;
+    margin: 24px auto;
     text-align: center;
 }
 .div-service>hr {
-    margin: 24px 129.2px;
+    margin: 24px auto;
 }
-body {
-    overflow-x: hidden;
+
 }
-}
+
